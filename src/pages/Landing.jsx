@@ -8,6 +8,7 @@ import HowWorks from "../components/Home Page/HowWorks";
 import Team from "../components/Home Page/Team";
 import Brands from "../components/Home Page/Brands";
 import Testimonial from "../components/Home Page/Testimonial";
+import SuccessCard from "../components/SuccessCard/SuccessCard";
 
 const Landing = () => {
     const navbarRef = useRef(null);
@@ -44,14 +45,63 @@ const Landing = () => {
                     </div>
                 </div>
             </Wrapper>
+
             <div>
             {/* <HowWorks/> */}
             {/* <PopularCategory/> */}
             {/* <Team/> */}
             {/* <Testimonial/> */}
             {/* <Brands/> */}
+            <h1 className="success-stories-heading">Success Stories</h1>
+            <div className="success-cards">
+            <SuccessCard
+        imgSrc="https://img.freepik.com/free-vector/illustration-businessman_53876-5856.jpg"
+        spanTag="Arnav"
+        constentHead="Software Engineer"
+        constentPara="Croque monsieur paneer cheese triangles. When the cheese comes out everybody's happy cheeseburger melted cheese pepper jack croque"
+        reads="3224"
+        views="7"
+        comment="21"
+        color="#5994e7"
+      />
+      <SuccessCard
+        imgSrc="https://img.freepik.com/free-vector/illustration-businessman_53876-5856.jpg"
+        spanTag="Aishwarya"
+        constentHead="Developer"
+        constentPara="Croque monsieur paneer cheese triangles. When the cheese comes out everybody's happy cheeseburger melted cheese pepper jack croque"
+        reads="1699"
+        views="11"
+        comment="27"
+        color="#5994e7"
+      />
+      <SuccessCard
+        imgSrc="https://img.freepik.com/free-vector/illustration-businessman_53876-5856.jpg"
+        spanTag="Karthik"
+        constentHead="Front End Developer"
+        constentPara="Croque monsieur paneer cheese triangles. When the cheese comes out everybody's happy cheeseburger melted cheese pepper jack croque"
+        reads="1624"
+        views="4"
+        comment="17"
+        color="#5994e7"
+      />
+       <SuccessCard
+        imgSrc="https://img.freepik.com/free-vector/illustration-businessman_53876-5856.jpg"
+        spanTag="Abinav"
+        constentHead="Full stack Developer"
+        constentPara="Croque monsieur paneer cheese triangles. When the cheese comes out everybody's happy cheeseburger melted cheese pepper jack croque"
+        reads="1624"
+        views="4"
+        comment="17"
+        color="#5994e7"
+      />
+
             </div>
+            </div>
+            
+            <div></div>
         </>
+    
+        
     );
 };
 
